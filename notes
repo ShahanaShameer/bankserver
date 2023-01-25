@@ -1,0 +1,62 @@
+Sever creation = nodejs+express
+....................................
+
+Basic commands
+..............
+
+1)Creation of the package.json - npm init
+2)Creation of the node modules - npm i express(installing of express)
+1)Install mongose - npm i mongoose
+
+Basic steps
+...........
+
+1)Creating a folder (BankSever)
+2)Create package.json
+3)Install express
+4)Create index.js
+5)Import express inside index.js
+6)Create an app using the express
+7)Setup port number
+8)Resolving http request
+    Get - To get the data
+    Post - To post the data
+    put - update data prtially
+    patch - update the data completely
+    delete - To delete the data completely
+9)HTTP Resonse Code
+    1xx - Information
+    2xx - successful
+    3xx - Redirection
+    4xx - Client error
+    5xx - Server Error
+10)JWT Token
+    Install JWT - npm i jsonwebtoken
+    To generate a token - sign()
+11)Middleware
+    It comes in the middle of the request and response cycle of the nodejs execution process. 
+    1)Application specific middleware-for entire middleware
+    req,res,next
+    2)Router specific middleware - validate token -verify() -jwtwebtoken
+12)Database integration
+    1)Install mongose - npm i mongoose
+
+
+13)Asynchronous function resolving-promise
+    
+    1)Resolve State - then()
+    2)Reject State - catch()
+
+14)CORS - Cross origin resource sharing
+
+    install cors - npm i cors
+    port 4200(angular)-----request----> 3000(node)
+15)Asynchronous call - RxJs - (Reactive Extension
+for JavaScript)   
+
+JS - promise
+TS - RxJs(library)
+
+    1)Observable
+        a)resolved - Subscribe()
+        b)reject - catch
